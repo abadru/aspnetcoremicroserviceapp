@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZnoW+PgfOn3VW3Py1hYiCbhFGIrpiGhESAmIL+HeEzyEL0OKLz1dePlw0ZiOjnqm11yvhV8bL7KHgmZa/yGmyA==",
+  "success": true,
+  "projectFilePath": "C:\\Data\\Learning\\Code\\MicroservicesApp\\src\\Common\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\abdul.badru\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\abdul.badru\\.nuget\\packages\\rabbitmq.client\\6.2.1\\rabbitmq.client.6.2.1.nupkg.sha512",
+    "C:\\Users\\abdul.badru\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\abdul.badru\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

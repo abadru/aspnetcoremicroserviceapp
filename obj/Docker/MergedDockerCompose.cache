@@ -1,0 +1,66 @@
+services:
+  basket.api:
+    build:
+      context: C:\Data\Learning\Code\MicroservicesApp
+      dockerfile: src/Basket/Basket.API/Dockerfile
+    container_name: basketapi
+    depends_on:
+      basketdb:
+        condition: service_started
+      rabbitmq:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings:Redis: basketdb:6379
+      EventBus:HostName: rabbitmq
+    image: basketapi
+    ports:
+    - published: 8001
+      target: 80
+    volumes:
+    - /.aspnet/https:/root/.aspnet/https/:rw
+    - /.microsoft/usersecrets:/root/.microsoft/usersecrets:rw
+  basketdb:
+    container_name: basketdb
+    image: redis
+    ports:
+    - published: 6379
+      target: 6379
+    restart: always
+  catalog.api:
+    build:
+      context: C:\Data\Learning\Code\MicroservicesApp
+      dockerfile: src/Catalog/Catalog.API/Dockerfile
+    container_name: catalogapi
+    depends_on:
+      catalogdb:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      CatalogDatabaseSettings:ConnectionString: mongodb://catalogdb:27017
+    image: catalogapi
+    ports:
+    - published: 8000
+      target: 80
+    volumes:
+    - /.aspnet/https:/root/.aspnet/https:rw
+    - /.microsoft/usersecrets:/root/.microsoft/usersecrets:rw
+  catalogdb:
+    container_name: catalogdb
+    image: mongo
+    ports:
+    - published: 27017
+      target: 27017
+    restart: always
+    volumes:
+    - /site:/data/db:rw
+  rabbitmq:
+    container_name: rabbitmq
+    image: rabbitmq:3-management-alpine
+    ports:
+    - published: 5672
+      target: 5672
+    - published: 15672
+      target: 15672
+    restart: always
+version: '3.4'

@@ -1,0 +1,9 @@
+C:\Data\Learning\Code\MicroservicesApp\src\Common\EventBusRabbitMQ\bin\Debug\netcoreapp3.1\EventBusRabbitMQ.deps.json
+C:\Data\Learning\Code\MicroservicesApp\src\Common\EventBusRabbitMQ\bin\Debug\netcoreapp3.1\EventBusRabbitMQ.dll
+C:\Data\Learning\Code\MicroservicesApp\src\Common\EventBusRabbitMQ\bin\Debug\netcoreapp3.1\EventBusRabbitMQ.pdb
+C:\Data\Learning\Code\MicroservicesApp\src\Common\EventBusRabbitMQ\obj\Debug\netcoreapp3.1\EventBusRabbitMQ.csprojAssemblyReference.cache
+C:\Data\Learning\Code\MicroservicesApp\src\Common\EventBusRabbitMQ\obj\Debug\netcoreapp3.1\EventBusRabbitMQ.AssemblyInfoInputs.cache
+C:\Data\Learning\Code\MicroservicesApp\src\Common\EventBusRabbitMQ\obj\Debug\netcoreapp3.1\EventBusRabbitMQ.AssemblyInfo.cs
+C:\Data\Learning\Code\MicroservicesApp\src\Common\EventBusRabbitMQ\obj\Debug\netcoreapp3.1\EventBusRabbitMQ.csproj.CoreCompileInputs.cache
+C:\Data\Learning\Code\MicroservicesApp\src\Common\EventBusRabbitMQ\obj\Debug\netcoreapp3.1\EventBusRabbitMQ.dll
+C:\Data\Learning\Code\MicroservicesApp\src\Common\EventBusRabbitMQ\obj\Debug\netcoreapp3.1\EventBusRabbitMQ.pdb

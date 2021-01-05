@@ -1,0 +1,9 @@
+C:\Data\Learning\Code\MicroservicesApp\src\Ordering\Ordering.Core\bin\Debug\netcoreapp3.1\Ordering.Core.deps.json
+C:\Data\Learning\Code\MicroservicesApp\src\Ordering\Ordering.Core\bin\Debug\netcoreapp3.1\Ordering.Core.dll
+C:\Data\Learning\Code\MicroservicesApp\src\Ordering\Ordering.Core\bin\Debug\netcoreapp3.1\Ordering.Core.pdb
+C:\Data\Learning\Code\MicroservicesApp\src\Ordering\Ordering.Core\obj\Debug\netcoreapp3.1\Ordering.Core.csprojAssemblyReference.cache
+C:\Data\Learning\Code\MicroservicesApp\src\Ordering\Ordering.Core\obj\Debug\netcoreapp3.1\Ordering.Core.AssemblyInfoInputs.cache
+C:\Data\Learning\Code\MicroservicesApp\src\Ordering\Ordering.Core\obj\Debug\netcoreapp3.1\Ordering.Core.AssemblyInfo.cs
+C:\Data\Learning\Code\MicroservicesApp\src\Ordering\Ordering.Core\obj\Debug\netcoreapp3.1\Ordering.Core.csproj.CoreCompileInputs.cache
+C:\Data\Learning\Code\MicroservicesApp\src\Ordering\Ordering.Core\obj\Debug\netcoreapp3.1\Ordering.Core.dll
+C:\Data\Learning\Code\MicroservicesApp\src\Ordering\Ordering.Core\obj\Debug\netcoreapp3.1\Ordering.Core.pdb
