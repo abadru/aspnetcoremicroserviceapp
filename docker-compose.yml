@@ -5,6 +5,8 @@ services:
         image: mongo
     basketdb:
         image: redis
+    orderdb:
+        image: mcr.microsoft.com/mssql/server
     rabbitmq:
         image: rabbitmq:3-management-alpine
     catalog.api:
@@ -17,3 +19,9 @@ services:
         build:
             context: .
             dockerfile: src/Basket/Basket.API/Dockerfile
+    ordering.api:
+        image: ${DOCKER_REGISTRY-}orderingapi
+        build:
+            context: .
+            dockerfile: src/Ordering/Ordering.API/Dockerfile
+
